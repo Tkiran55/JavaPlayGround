@@ -9,7 +9,7 @@ public class ReverseAString {
 
         String reversed = "";
 
-        // char array and iterate
+        // char array and iterate   
         char[] characters = str.toCharArray();
 
         for(int i=characters.length-1; i>=0 ;i--) {
