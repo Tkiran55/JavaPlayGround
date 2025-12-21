@@ -1,6 +1,8 @@
+package BasicJava;
+
 import java.util.Scanner;
 
-public class HelloWorld {
+public class SimpleCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== Simple Calculator ===");
@@ -19,8 +21,5 @@ public class HelloWorld {
         System.out.println(numOne + " % " + numTwo + " = " + (numOne % numTwo));
 
         scanner.close();
-
-
     }
-
 }
