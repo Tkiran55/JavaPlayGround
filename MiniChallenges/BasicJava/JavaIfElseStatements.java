@@ -18,7 +18,7 @@ public class JavaIfElseStatements {
         System.out.println("=== Results ===");
         System.out.println("Your score: " + score);
 
-        char grade = 0;
+        char grade;
         if (score >= 90) {
             grade = 'A';
         } else if (score >= 80) {
@@ -32,7 +32,7 @@ public class JavaIfElseStatements {
         }
         System.out.println("Your grade: " + grade);
 
-        String status = null;
+        String status;
         if (score >= 60) {
             status = "Passed";
         }else{
